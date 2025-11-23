@@ -1,1 +1,4 @@
 # Data-science-project
+This project looks at how Netflix genres connect to each other, how those connections change over time, and whether we can predict if a title is a Movie or a TV Show using only basic metadata. I built a genre co-occurrence network from the dataset and identified the genres that act like “hubs” (the ones that appear with almost everything) as well as the smaller genres that stick to their own clusters. Then I compared these networks across different years to see how Netflix’s catalog shifts, especially as it becomes more international.
+
+I also trained models to classify titles as either Movies or TV Shows using features like country, release year, rating, and duration. Even without using descriptions or text, the model learns strong patterns and can predict the format surprisingly well. Overall, this project shows how Netflix’s catalog is structured, how it evolves, and how simple metadata can reveal meaningful patterns in content.
