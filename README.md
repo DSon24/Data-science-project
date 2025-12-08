@@ -1,4 +1,11 @@
-# Data-science-project
-This project looks at how Netflix genres connect to each other, how those connections change over time, and whether we can predict if a title is a Movie or a TV Show using only basic metadata. I built a genre co-occurrence network from the dataset and identified the genres that act like “hubs” (the ones that appear with almost everything) as well as the smaller genres that stick to their own clusters. Then I compared these networks across different years to see how Netflix’s catalog shifts, especially as it becomes more international.
-
-I also trained models to classify titles as either Movies or TV Shows using features like country, release year, rating, and duration. Even without using descriptions or text, the model learns strong patterns and can predict the format surprisingly well. Overall, this project shows how Netflix’s catalog is structured, how it evolves, and how simple metadata can reveal meaningful patterns in content.
+# Predicting Netflix Content Type (Movie vs. TV Show) 
+**COMP3125 – Individual Project** 
+Son Nguyen 
+Department of Data Science  
+## Project Overview This project develops a highly accurate binary classifier that predicts whether a Netflix title is a Movie or a TV Show using only four basic metadata features: 
+- Production country
+- Release year
+-  Content rating
+- Duration (minutes or seasons)
+A simple Logistic Regression model achieves 100% accuracy, 100% precision, 100% recall, and 100% F1-score on the held-out test set (1,594 samples). The near-perfect performance is driven by the strong structural difference in duration formatting (minutes vs. seasons).
+The project also includes exploratory analysis of genre frequency and its evolution across three distinct eras (1942–1979, 1980–1989, 1990–2021), highlighting Netflix’s shift toward global and TV-centric content.
