@@ -1,7 +1,10 @@
 # Predicting Netflix Content Type (Movie vs. TV Show) 
 **COMP3125 – Individual Project** 
+
 Son Nguyen 
+
 Department of Data Science  
+
 ## Project Overview This project develops a highly accurate binary classifier that predicts whether a Netflix title is a Movie or a TV Show using only four basic metadata features: 
 - Production country
 - Release year
